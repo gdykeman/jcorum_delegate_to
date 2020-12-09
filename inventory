@@ -1,0 +1,4 @@
+[nodes]
+node1 my_var='1111'
+node2 my_var='2222'
+node3 my_var='3333'

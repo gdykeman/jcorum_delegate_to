@@ -1,0 +1,4 @@
+---
+- name: Delegated block of code 
+  debug:
+    msg: "My var is {{ my_var }} and this executed on {{ inventory_hostname }}"

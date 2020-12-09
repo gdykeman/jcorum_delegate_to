@@ -1,0 +1,10 @@
+--- 
+- name: Call a role with delegate 
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: include role
+      include_role:
+        name: common
+      when: inventory_hostname == 'node2'
